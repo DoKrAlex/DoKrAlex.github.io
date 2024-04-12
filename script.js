@@ -38,7 +38,7 @@ const quizData = [
     {
         question: "What is the name of Kessoku Band's first song?",
         image: "images/question-7.jpg",
-        options: ["Guitar, Loneliness and Blue Planet (Gitā to Kodoku to Aoi Hoshi)", "That Band (Ano Bando)", "Karakara", "Secret Base (Himitsu Kichi)"],
+        options: ["Guitar, Loneliness and Blue Planet (Gitā to Kodoku to Aoi Hoshi)", "Rockn' Roll, Morning Light Falls on You (Korogaru Iwa, Kimi ni Asa ga Furu)", "Karakara", "Secret Base (Himitsu Kichi)"],
         correctAnswer: "Guitar, Loneliness and Blue Planet (Gitā to Kodoku to Aoi Hoshi)"
     },
     {
@@ -50,7 +50,7 @@ const quizData = [
     {
         question: "What is the name the song played by Kessoku Band after which Bocchi plays an improvised solo to hype up the crowd?",
         image: "images/question-9.jpg",
-        options: ["That Band (Ano Bando)", "What is wrong with", "hitoribocchi tokyo", "Distortion!!"],
+        options: ["That Band (Ano Bando)", "What is wrong with (Nani ga Warui)", "hitoribocchi tokyo", "Distortion!!"],
         correctAnswer: "That Band (Ano Bando)"
     },
     {
