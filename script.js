@@ -48,9 +48,9 @@ const quizData = [
         correctAnswer: "Shuka High School"
     },
     {
-        question: "What is the name the song played by Kessoku Band after Bocchi plays an intro improvised solo to hype up the crowd?",
+        question: "What is the name the song played by Kessoku Band after which Bocchi plays an improvised solo to hype up the crowd?",
         image: "images/question-9.jpg",
-        options: ["That Band (Ano Bando)", "What is wrong with", "Guitar, Loneliness and Blue Planet (Gitā to Kodoku to Aoi Hoshi)", "Distortion!!"],
+        options: ["That Band (Ano Bando)", "What is wrong with", "hitoribocchi tokyo", "Distortion!!"],
         correctAnswer: "That Band (Ano Bando)"
     },
     {
@@ -186,7 +186,7 @@ function showResult() {
     questionElement.textContent = '';
     optionsContainer.innerHTML = '';
     submitButton.style.display = 'none';
-    resultElement.textContent = `Your Score: ${score} out of ${quizData.length}`;
+    resultElement.textContent = `Your Score: ${score} out of ${quizData.length}!`;
 }
 
 loadQuestion();
