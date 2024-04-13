@@ -187,7 +187,16 @@ function showResult() {
     optionsContainer.innerHTML = '';
     submitButton.style.display = 'none';
     resultElement.textContent = `Your Score: ${score} out of ${quizData.length}!`;
+
+    // Adding the image to the result screen
+    const resultImage = document.createElement('img');
+    resultImage.src = 'images/results.jpg';
+    resultImage.alt = 'Result Image';
+    resultImage.style.maxWidth = '100%';
+    resultImage.style.height = 'auto';
+    resultElement.appendChild(resultImage);
 }
+
 
 loadQuestion();
 submitButton.addEventListener('click', checkAnswer);
